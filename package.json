@@ -1,0 +1,28 @@
+{
+  "name": "passportjs_wakanda",
+  "version": "1.0.0",
+  "description": "client_secret=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",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.6.0",
+    "mysql2": "^3.2.3",
+    "passport": "^0.5.3",
+    "passport-google-oauth20": "^2.0.0",
+    "uuid": "^9.0.0"
+  }
+}
