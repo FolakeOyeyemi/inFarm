@@ -1,14 +1,15 @@
+-- Active: 1682449495010@@127.0.0.1@3306@infarm
 create table
     farm_users(
         id int auto_increment primary key,
-        username varchar(255) not null,
-        googleId varchar(255) not null,
-        photo varchar(255) not null,
-        created_at timestamp default current_timestamp,
-        updated_at timestamp default current_timestamp on update current_timestamp
+        username VARCHAR(255) NOT NULL,
+        email VARCHAR(255) NOT NULL,
+        googleId VARCHAR(255) NOT NULL,
+        photo VARCHAR(255) NOT NULL,
+        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
     )
 
-    
 
     create table
     farm_investments(

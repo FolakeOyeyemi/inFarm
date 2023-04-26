@@ -2,6 +2,8 @@ const express = require("express");
 const passport = require("passport");
 const router = express.Router();
 
+const { signup, createInvestment, getinvestments, payment } = require ("../controller/controller");
+
 
 
 // Auth login
@@ -28,6 +30,10 @@ router.get(
 
   }
 );
+router.post("/signup", signup);
+router.post("/create", createInvestment);
+router.get("/getAll", getinvestments);
+router.post("/payment", payment);
 
 
 
